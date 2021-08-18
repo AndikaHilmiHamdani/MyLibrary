@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                databaseHelper.addStundentDetail(etname.getText().toString());
+                databaseHelper.addStudentDetail(etname.getText().toString());
                 etname.setText("");
                 Toast.makeText(MainActivity.this,
                         "Stored Successfully",
